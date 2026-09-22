@@ -1,0 +1,12 @@
+BUILD APK APRENDE LIAN JAPAUN — GUIA KURTU
+
+1. Kria repository foun iha GitHub, naran: APRENDE-LIAN-JAPAUN.
+2. Upload hotu file no folder iha ZIP ba repository. Tenke upload .github/workflows/build-apk.yml mos.
+3. Ba menu Actions.
+4. Hili "Build APRENDE LIAN JAPAUN APK".
+5. Hili "Run workflow".
+6. Hein build remata.
+7. Iha rezultadu, download artifact "APRENDE_LIAN_JAPAUN-debug".
+8. Extraia ZIP artifact no instala app-debug.apk iha Android.
+
+Nota: workflow ida ne'e la presiza Gradle Wrapper tanba nia download Gradle 8.9 durante build.
